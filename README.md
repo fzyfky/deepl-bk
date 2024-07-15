@@ -16,8 +16,9 @@
    Mac（M1/M2）：
 
        docker run --platform linux/amd64 -p 8080:80 -itd kanikig/deepl-bk
+   
        其中，8080 是服务运行的端口，可以修改为其他数值。
 
-5. 在 Zotero 中配置
+6. 在 Zotero 中配置
     打开 Zotero – 选项 – 翻译 – 翻译引擎 – DeepL(自定义)，在密钥中输入网址。
     如果按照上完进行配置，则链接为： http://127.0.0.1:8080/translate 。
